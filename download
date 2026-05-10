@@ -1,0 +1,26 @@
+# ── Build Artifacts ───────────────────────────────────────────────────────────
+wasm-build/
+dist/
+
+# ── Wasm outputs inside extension (generated, not committed) ──────────────────
+extension-ui/wasm/finengine.js
+extension-ui/wasm/finengine.wasm
+
+# ── OS & Editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Node (if Tailwind build tools are added later) ────────────────────────────
+node_modules/
+package-lock.json
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+
+# ── Emscripten cache (local to developer machine) ─────────────────────────────
+.emscripten_cache/
